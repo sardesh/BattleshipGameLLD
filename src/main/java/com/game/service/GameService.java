@@ -64,4 +64,8 @@ public class GameService {
         playerA.addShip(shipA);
         playerB.addShip(shipB);
     }
+
+    public void viewBattleField() {
+        game.getBattleField().viewBattleField();
+    }
 }
